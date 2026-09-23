@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Neon Road Racer</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main>
+    <h1>Neon Road Racer</h1>
+    <p>Arrow keys / A-D to steer. Avoid traffic!</p>
+
+    <canvas id="game" width="480" height="640"></canvas>
+
+    <div class="hud">
+      <span id="score">Score: 0</span>
+      <span id="speed">Speed: 0</span>
+    </div>
+
+    <button id="restart" type="button">Restart</button>
+    <p id="status">Press a steering key to start.</p>
+  </main>
+
+  <script src="game.js"></script>
+</body>
+</html>
