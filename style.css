@@ -1,0 +1,38 @@
+body {
+  margin: 0;
+  background: #101218;
+  color: #f4f4f4;
+  font-family: system-ui, sans-serif;
+  text-align: center;
+}
+
+main {
+  max-width: 540px;
+  margin: 24px auto;
+  padding: 0 16px;
+}
+
+canvas {
+  display: block;
+  width: min(100%, 480px);
+  height: auto;
+  margin: 16px auto;
+  background: #333;
+  border: 2px solid #eee;
+  border-radius: 8px;
+}
+
+.hud {
+  display: flex;
+  justify-content: space-between;
+  max-width: 480px;
+  margin: 8px auto;
+  font-weight: 700;
+}
+
+button {
+  min-height: 44px;
+  padding: 8px 18px;
+  font: inherit;
+  cursor: pointer;
+}
